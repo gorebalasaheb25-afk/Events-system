@@ -1,0 +1,154 @@
+
+
+
+
+register.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+<body>
+
+    <h1 align="center">Event Registration Form</h1>
+
+    <p align="center">
+    </p>
+
+    <form action="success.html" method="post">
+        <table align="center" cellpadding="8">
+            <tr>
+                <td>Participant Nam:e</td>
+                <td><input type="text" placeholder=" Enter participant  name" ></td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email" placeholder=" Enter a email"></td>
+            </tr>
+            <tr>
+                <td>Mobile Number:</td>
+                <td><input type="Mobile" placeholder=" Enter a mobile number"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>College Name</td>
+                <td><input type="text"name=" Enter college name"></td>
+            </tr>
+            <tr>
+                <td>Select</td>
+                <td>
+                    <select Name="event">
+                        <option value="">-- Select --</option>
+                        <option value="Coding Competition">Coding Competition</option>
+                        <option value="Web Development Workshop">Web Development Workshop</option>
+                        <option value="Quiz Competition">Quiz Competition</option>
+                        <option value="Cultural Fest">Cultural Fest</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Participation Mode</td>
+                <td>
+                    <input type="radio" name="mode" value="On"> Online
+                    <input type="radio" name="mode" value="off">offline
+            <tr>
+                <td>Comments</td>
+                <td><textarea name="comments" rows="4" cols="30">Event Mangement System--</textarea></td>
+            </tr>
+            <tr>
+                              <td colspan="2" align="center">
+             
+       <input type="submit" value="Submit">
+                    <input type="reset" value="Reset "></br>
+                 <a href="Sucess.html">Sucess</a> 
+
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+
+
+
+success.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+
+    <h1 align="center">Registration Successful!</h1>
+
+    <p align="center">
+        Your registration has been successfully completed.
+    </p>
+
+    <p align="center">
+    </p>
+
+</body>
+</html>
+
+
+
+
+
+contact.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <h1 align="center">Contact Us</h1>
+
+    <p align="center">
+        
+
+    </p>
+
+    <h2>Organization Information</h2>
+    <p><strong>Organization Name:</strong> Event Management System</p>
+    <p><strong>Address:</strong> Event Management  office Maharashtra, India</p>
+    <p><strong>Phone Number:</strong> 1234567899</p>
+    <p><strong>Email Address:</strong> abc11@gmail.com</p>
+
+    <h3>Send Us a Message</h3>
+    <form action="Contact.html">
+        <table cellpadding="8">
+            <tr>
+                <td>Name</td>
+                <td><input type="Text" Placeholder=" Enter a Name"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="Email" placeholder=" Enter a Email"></td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td><textarea name="Message" rows="5" cols="30">Display Message--</textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="Submit" value="Send Message">
+                      <a href="Back to home">Back to home</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

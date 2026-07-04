@@ -1,0 +1,24 @@
+index.html
+<!DOCTYPE html>
+<html>
+  
+        <h1 align="center">Event Management System</h1>
+
+    
+   <hr></hr>
+  <body>
+      <h1>Welcome to Event Mangement System</h1>
+      <h3> Brief Introduction:</h3>
+      <p>An Event Management Organization is a company or team that plans, organizes, and manages different types of events such as weddings, conferences, seminars, exhibitions, festivals, corporate events, and social gatherings. It handles every aspect of an event, including planning, budgeting, venue selection, decoration, catering, entertainment, and coordination, to ensure the event is successful and memorable. The main goal of an event management organization is to provide a smooth, well-organized, and enjoyable experience for clients and guests.
+  </p>
+<h1> contact us:</h1>
+<h3> Email:abc11@gmail.com</h3>
+<h3>Mobile No:1234567899</h3>
+<h3>Address:Event Mangement System Office Maharashtra ,India</h3>
+<hr></hr>
+<a href="Events.html">Events.html</a>
+</html>
+
+
+
+

@@ -1,0 +1,49 @@
+Events.html
+<html>
+    <title>Events</title>
+</head>
+<body>
+    <h1 align="center">Available Events</h1>
+
+        <a href="register.html">register</a> 
+        
+    <table border="1" align="center" cellpadding="10">
+        <tr>
+            <th>Event ID</th>
+            <th>Event Name</th>
+            <th>Category</th>
+            <th>Date</th>
+            <th>Venue</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Web Development Workshop</td>
+            <td>Technical</td>
+            <td>10 July 2026</td>
+            <td>Computer Lab</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Cultural Fest</td>
+            <td>Cultural</td>
+            <td>15 July 2026</td>
+            <td>College Auditorium</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Cricket Tournament</td>
+            <td>Sports</td>
+            <td>20 July 2026</td>
+            <td>College Ground</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>AI & Machine Learning Seminar</td>
+            <td>Seminar</td>
+            <td>25 July 2026</td>
+            <td>Seminar Hall</td>
+        </tr>
+    </table>
+                </td>
+            </tr>
+</html>
